@@ -4,9 +4,6 @@
 include(../cmake/cpm.cmake)
 include(../cmake/cpm-catch.cmake)
 
-# ctest
-enable_testing()
-
 # catch
 list(APPEND CMAKE_MODULE_PATH "${Catch2_SOURCE_DIR}/extras")
 include(Catch)
